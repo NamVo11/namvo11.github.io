@@ -1,0 +1,109 @@
+---
+layout: single
+---
+
+<div class="research-detail">
+
+    <!-- Research metadata -->
+
+    <div class="research-meta">
+
+        {% if page.research_type %}
+            <p class="research-type">
+                {{ page.research_type }}
+                {% if page.year %}
+                    · {{ page.year }}
+                {% endif %}
+            </p>
+        {% endif %}
+
+        {% if page.authors %}
+            <p class="research-authors">
+                {{ page.authors }}
+            </p>
+        {% endif %}
+
+        {% if page.journal %}
+            <p class="research-journal">
+                {{ page.journal }}
+            </p>
+        {% endif %}
+
+    </div>
+
+
+    <!-- External resource links -->
+
+    <div class="research-links">
+
+        {% if page.paper_url %}
+            <a href="{{ page.paper_url }}"
+               target="_blank"
+               rel="noopener noreferrer">
+                Journal Article
+            </a>
+        {% elsif page.paper_status %}
+            <span class="research-status">
+                Paper ({{ page.paper_status }})
+            </span>
+        {% endif %}
+
+        {% if page.pdf_url %}
+            <a href="{{ page.pdf_url }}">PDF</a>
+        {% endif %}
+
+        {% if page.code_url %}
+            <a href="{{ page.code_url }}">Code & Examples</a>
+        {% endif %}
+
+        {% if page.bibtex_url %}
+            <a href="{{ page.bibtex_url }}">BibTeX</a>
+        {% endif %}
+
+    </div>
+
+
+    <!-- Section navigation -->
+
+    <nav class="research-navigation">
+
+        <a href="#overview">Overview</a>
+
+        {% if page.show_abstract %}
+            <a href="#abstract">Abstract</a>
+        {% endif %}
+
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#applications">Applications</a>
+        <a href="#scope">Scope</a>
+        <a href="#resources">Resources</a>
+        <a href="#research-questions">Research Questions</a>
+
+        {% if page.show_citation %}
+            <a href="#citation">Citation</a>
+        {% endif %}
+
+    </nav>
+
+
+    <!-- Main research content -->
+
+    <div class="research-content">
+
+        {{ content }}
+
+    </div>
+
+
+    <!-- Return to research page -->
+
+    <div class="research-back">
+
+        <a href="{{ '/research/' | relative_url }}">
+            &larr; Back to Research
+        </a>
+
+    </div>
+
+</div>

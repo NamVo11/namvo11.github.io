@@ -47,12 +47,13 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% include /components/citations.html
-            citation=page.citation
-            paperurl=page.paperurl
-            slidesurl=page.slidesurl
-            bibtexurl=page.bibtexurl
-        %}         
+      {% include /components/citations.html
+          citation=page.citation
+          paperurl=page.paperurl
+          summaryurl=page.summaryurl
+          slidesurl=page.slidesurl
+          bibtexurl=page.bibtexurl
+      %}       
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
