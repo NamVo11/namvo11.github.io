@@ -17,7 +17,7 @@ Structural design optimization using multiple materials to improve the dynamic p
 
 <small>Illustrative placeholder — not a research result.</small>
 
-[Research Details →]({{ '/research/multimaterial-to/' | relative_url }}) | [Paper](https://doi.org/10.1016/j.finel.2026.104556)
+[Paper](https://doi.org/10.1016/j.finel.2026.104556)
 
 ## [Reduced-Order Modeling for Topology Optimization]({{ '/research/rom-to/' | relative_url }})
 
@@ -29,7 +29,7 @@ Efficient computational methods for accelerating large-scale topology optimizati
 
 <small>Illustrative placeholder — not a research result.</small>
 
-[Research Details →]({{ '/research/rom-to/' | relative_url }}) | Paper (under review)
+Paper (under review)
 
 ## [Machine Learning for Computational Engineering]({{ '/research/machine-learning/' | relative_url }})
 
@@ -40,5 +40,3 @@ Exploring data-driven methods for engineering simulations and computational mech
 </a>
 
 <small>Illustrative placeholder — not a research result.</small>
-
-[Research Details →]({{ '/research/machine-learning/' | relative_url }})
