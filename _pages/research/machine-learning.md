@@ -1,25 +1,34 @@
 ---
 layout: single
-title: "Machine Learning for Mechanics"
+title: "Machine Learning for Computational Engineering"
 permalink: /research/machine-learning/
 author_profile: true
 ---
 
-[← Back to Research](/research/)
+[← Back to Research]({{ '/research/' | relative_url }})
+
+*Emerging research direction.*
 
 ## Overview
 
-Research overview will be added here.
+Details will be added here.
+
+## Research Directions
+
+Details will be added here.
 
 ## Methodology
 
-Machine learning approaches for computational mechanics.
+Details will be added here.
 
-## Numerical Results
+## Results & Discussion
 
-Numerical examples and prediction results.
+Results will be added when available.
 
 ## Engineering Applications
 
-Potential applications of machine learning in mechanics
-and engineering.
+Details will be added here.
+
+## Related Publications
+
+Publications will be added when available.

@@ -5,29 +5,40 @@ permalink: /research/
 author_profile: true
 ---
 
-My research focuses on computational mechanics and advanced
-numerical methods for engineering applications.
+My research focuses on computational mechanics and advanced numerical methods for engineering applications.
 
-## Multi-material Topology Optimization for Viscoelastic Materials
+## [Multi-Material Topology Optimization of Viscoelastic Structures]({{ '/research/multimaterial-to/' | relative_url }})
 
-Brief introduction to the research topic.
+Structural design optimization using multiple materials to improve the dynamic performance of viscoelastic structures.
 
-[Research Details](/research/multimaterial-to/) |
-[Paper](https://www.sciencedirect.com/science/article/pii/S0168874X26000466)
+<a href="{{ '/research/multimaterial-to/' | relative_url }}">
+  <img src="{{ '/images/research/multimaterial-to.svg' | relative_url }}" alt="Temporary schematic illustration for Multi-Material Topology Optimization of Viscoelastic Structures" style="display: block; width: 100%; max-width: 760px; height: auto;" loading="lazy">
+</a>
 
----
+<small>Illustrative placeholder — not a research result.</small>
 
-## Reduced-Order Modeling (ROM) in Topology Optimization
+[Research Details →]({{ '/research/multimaterial-to/' | relative_url }}) | [Paper](https://doi.org/10.1016/j.finel.2026.104556)
 
-Brief introduction to the research topic.
+## [Reduced-Order Modeling for Topology Optimization]({{ '/research/rom-to/' | relative_url }})
 
-[Research Details](/research/rom-to/) |
-Paper (under review)
+Efficient computational methods for accelerating large-scale topology optimization through reduced-order modeling.
 
----
+<a href="{{ '/research/rom-to/' | relative_url }}">
+  <img src="{{ '/images/research/rom-to.svg' | relative_url }}" alt="Temporary schematic illustration for Reduced-Order Modeling for Topology Optimization" style="display: block; width: 100%; max-width: 760px; height: auto;" loading="lazy">
+</a>
 
-## Machine Learning for Mechanics
+<small>Illustrative placeholder — not a research result.</small>
 
-Brief introduction to the research topic.
+[Research Details →]({{ '/research/rom-to/' | relative_url }}) | Paper (under review)
 
-[Research Details](/research/machine-learning/)
+## [Machine Learning for Computational Engineering]({{ '/research/machine-learning/' | relative_url }})
+
+Exploring data-driven methods for engineering simulations and computational mechanics.
+
+<a href="{{ '/research/machine-learning/' | relative_url }}">
+  <img src="{{ '/images/research/machine-learning.svg' | relative_url }}" alt="Temporary schematic illustration for Machine Learning for Computational Engineering" style="display: block; width: 100%; max-width: 760px; height: auto;" loading="lazy">
+</a>
+
+<small>Illustrative placeholder — not a research result.</small>
+
+[Research Details →]({{ '/research/machine-learning/' | relative_url }})

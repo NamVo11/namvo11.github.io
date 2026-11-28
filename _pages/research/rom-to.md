@@ -1,28 +1,26 @@
 ---
 layout: single
-title: "Reduced-Order Modeling (ROM) in Topology Optimization"
+title: "Reduced-Order Modeling for Topology Optimization"
 permalink: /research/rom-to/
 author_profile: true
 ---
 
-[← Back to Research](/research/)
+[← Back to Research]({{ '/research/' | relative_url }})
 
-## Overview
+Efficient computational methods for accelerating large-scale topology optimization through reduced-order modeling.
 
-Research overview will be added here.
+## [Reduced-Order Modeling for Transient Dynamic Topology Optimization]({{ '/research/rom-to/transient-dynamics/' | relative_url }})
 
-## Methodology
+*Under review.*
 
-A brief explanation of the proposed methodology.
+[Research Details →]({{ '/research/rom-to/transient-dynamics/' | relative_url }})
 
-## Numerical Results
+## [Reduced-Order Modeling and Hyper-Reduction for Geometrically Nonlinear Topology Optimization]({{ '/research/rom-to/geometrically-nonlinear/' | relative_url }})
 
-Numerical examples and computational performance.
+*Ongoing research.*
 
-## Engineering Applications
+[Research Details →]({{ '/research/rom-to/geometrically-nonlinear/' | relative_url }})
 
-Potential engineering applications of the proposed method.
+## Related Skills
 
-## Related Publications
-
-Paper (under review)
+[Large-Scale Scientific Computing]({{ '/skills/scientific-computing/' | relative_url }}) · [Finite Element Analysis & Solver Development]({{ '/skills/finite-element-analysis/' | relative_url }}) · [Numerical Optimization & Model Reduction]({{ '/skills/numerical-optimization/' | relative_url }})

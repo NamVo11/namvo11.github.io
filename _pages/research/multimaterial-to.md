@@ -1,28 +1,39 @@
 ---
 layout: single
-title: "Multimaterial Topology Optimization for Viscoelastic Materials"
+title: "Multi-Material Topology Optimization of Viscoelastic Structures"
 permalink: /research/multimaterial-to/
 author_profile: true
 ---
 
-[← Back to Research](/research/)
+[← Back to Research]({{ '/research/' | relative_url }})
+
+*Published research*
 
 ## Overview
 
-Research overview will be added here.
+Details will be added here.
 
 ## Methodology
 
-A brief explanation of the proposed methodology.
+Details will be added here.
 
-## Numerical Results
+## Research Contributions
 
-Numerical examples and simulation results.
+Details will be added here.
+
+## Results & Discussion
+
+Details will be added here.
 
 ## Engineering Applications
 
-Potential engineering applications of the proposed method.
+Details will be added here.
 
 ## Related Publications
 
 [Paper](https://doi.org/10.1016/j.finel.2026.104556)
+
+## Related Skills
+
+[Large-Scale Scientific Computing]({{ '/skills/scientific-computing/' | relative_url }}) · [Finite Element Analysis & Solver Development]({{ '/skills/finite-element-analysis/' | relative_url }}) · [Numerical Optimization & Model Reduction]({{ '/skills/numerical-optimization/' | relative_url }})
+
