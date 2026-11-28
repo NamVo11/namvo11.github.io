@@ -1,0 +1,23 @@
+{% assign talk = include.talk %}
+<div class="list__item">
+  <article class="archive__item">
+    <h2 class="archive__item-title">{{ talk.title | escape }}</h2>
+    <p class="archive__item-excerpt">
+      <em>{{ talk.type | escape }}</em>{% if talk.presentation_status %} · {{ talk.presentation_status | escape }}{% endif %}<br>
+      <strong>{{ talk.venue | escape }}</strong><br>
+      <i class="fas fa-fw fa-calendar-days icon-pad-right" aria-hidden="true"></i>{{ talk.conference_dates | escape }}{% if talk.presentation_date %} (Presentation: {{ talk.presentation_date | escape }}){% endif %}<br>
+      <i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ talk.location | escape }}
+      {% if talk.session %}<br>Session: {{ talk.session | escape }}{% endif %}
+    </p>
+    {% if talk.overview %}<div class="archive__item-excerpt">{{ talk.overview | markdownify }}</div>{% endif %}
+    {% if talk.conference_url or talk.program_url or talk.researchurl or talk.slidesurl %}
+    <p class="archive__item-excerpt">
+      {% assign separator = "" %}
+      {% if talk.conference_url %}<a href="{{ talk.conference_url | escape }}">Conference Website</a>{% assign separator = " | " %}{% endif %}
+      {% if talk.program_url %}{{ separator }}<a href="{{ talk.program_url | escape }}">Program</a>{% assign separator = " | " %}{% endif %}
+      {% if talk.researchurl %}{{ separator }}<a href="{{ talk.researchurl | relative_url }}">Related Research</a>{% assign separator = " | " %}{% endif %}
+      {% if talk.slidesurl %}{{ separator }}<a href="{{ talk.slidesurl | relative_url }}">Slides</a>{% endif %}
+    </p>
+    {% endif %}
+  </article>
+</div>
