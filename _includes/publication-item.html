@@ -15,7 +15,7 @@
         <summary aria-label="Toggle publication overview">
           <span class="publication-overview__preview">{{ publication.overview | markdownify | strip_html | normalize_whitespace | escape }}</span>
           <span class="publication-overview__expanded-label">Overview</span>
-          <span class="publication-overview__toggle" aria-hidden="true"><span class="publication-overview__ellipsis">…</span> <span class="publication-overview__arrow"></span></span>
+          <span class="publication-overview__toggle" aria-hidden="true"><span class="publication-overview__ellipsis">…</span> <span class="publication-overview__more">More</span><span class="publication-overview__less">Less</span> <span class="publication-overview__arrow"></span></span>
         </summary>
         <div class="publication-overview__content">{{ publication.overview | markdownify }}</div>
       </details>

@@ -284,23 +284,37 @@
   &__toggle {
     flex-shrink: 0;
     white-space: nowrap;
-    color: var(--global-text-color-light);
+    color: inherit;
+    font-weight: 700;
+  }
+
+  &__less {
+    display: none;
+  }
+
+  summary:hover .publication-overview__toggle {
+    text-decoration: underline;
   }
 
   &__arrow {
     display: inline-block;
-    width: 0.45em;
-    height: 0.45em;
-    border-right: 1.5px solid currentColor;
-    border-bottom: 1.5px solid currentColor;
+    width: 0.55em;
+    height: 0.55em;
+    border-right: 2.5px solid currentColor;
+    border-bottom: 2.5px solid currentColor;
     transform: rotate(45deg);
     vertical-align: 0.17em;
   }
 
   &[open] {
     .publication-overview__preview,
-    .publication-overview__ellipsis {
+    .publication-overview__ellipsis,
+    .publication-overview__more {
       display: none;
+    }
+
+    .publication-overview__less {
+      display: inline;
     }
 
     .publication-overview__expanded-label {
