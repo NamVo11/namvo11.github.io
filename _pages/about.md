@@ -67,8 +67,8 @@ Expected graduation: September 2027
 
 <div class="experience-list">
   <div class="experience-item">
-    <span><strong>Company Name</strong><br>CAE Engineer</span>
-    <span class="experience-date">Start – End</span>
+    <span><strong>THACO BUS Plant</strong><br>Research &amp; Development (R&amp;D) Department</span>
+    <span class="experience-date">Sep 2019 – Sep 2022</span>
   </div>
 </div>
 
