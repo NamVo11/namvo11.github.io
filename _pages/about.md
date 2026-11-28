@@ -1,107 +1,75 @@
 ---
 layout: single
 permalink: /
-title: "Nam Vo — Research Website"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Read about my [research](/research/) in computational engineering.
+**Computational Mechanics · Scientific Computing · Engineering**
 
-## Biography
-------
+I am a Ph.D. student at Yokohama National University, with a background in automotive engineering and professional experience in computer-aided engineering (CAE).
 
-Biography content will be added here.
+My current research focuses on computational mechanics, numerical methods, and efficient computational approaches for engineering applications.
 
-An introduction to my academic background, research activities,
-and professional experience.
+Expected graduation: September 2027
 
-Please visit the [Publications](/publications/) page for more
-information about my research publications.
+[View Curriculum Vitae →]({{ '/cv/' | relative_url }})
 
-Additional projects can be found on the [Portfolio](/portfolio/) page.
+## Research Interests
 
-<div class="two-columns">
-
-  <div class="column">
-    <h2>Interests</h2>
-
-    <ul>
-      <li>
-        <i class="fas fa-laptop-code icon-pad-right"></i>
-        Research Interest 1
-      </li>
-
-      <li>
-        <i class="fas fa-laptop-code icon-pad-right"></i>
-        Research Interest 2
-      </li>
-
-      <li>
-        <i class="fas fa-laptop-code icon-pad-right"></i>
-        Research Interest 3
-      </li>
-
-      <li>
-        <i class="fas fa-laptop-code icon-pad-right"></i>
-        Research Interest 4
-      </li>
-    </ul>
-  </div>
-
-  <div class="column">
-    <h2>Education</h2>
-
-    <ul>
-      <li>
-        <i class="fas fa-graduation-cap icon-pad-right"></i>
-        Ph.D. at University Name, Year - Present
-      </li>
-
-      <li>
-        <i class="fas fa-graduation-cap icon-pad-right"></i>
-        M.Sc. at University Name, Year
-      </li>
-
-      <li>
-        <i class="fas fa-graduation-cap icon-pad-right"></i>
-        B.Sc. at University Name, Year
-      </li>
-    </ul>
-  </div>
-
+<div>
+  Computational Mechanics<br>
+  Topology Optimization<br>
+  Reduced-Order Modeling<br>
+  Machine Learning for Engineering
 </div>
+
+[Explore my research →]({{ '/research/' | relative_url }})
+
+## Technical Skills
+
+<ul style="list-style: none; padding-left: 0;">
+  {% for skill in site.data.skills %}
+  <li>
+    <i class="fas fa-chevron-right icon-pad-right" aria-hidden="true"></i>
+    <a href="{{ skill.url | relative_url }}">{{ skill.title | escape }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+[View all technical skills →]({{ '/skills/' | relative_url }})
+
+## Education
+
+<ul style="list-style: none; padding-left: 0;">
+  <li>
+    <i class="fas fa-graduation-cap icon-pad-right" aria-hidden="true"></i>
+    <strong>Ph.D.</strong><br>
+    Yokohama National University<br>
+    Expected September 2027
+  </li>
+  <li>
+    <i class="fas fa-graduation-cap icon-pad-right" aria-hidden="true"></i>
+    <strong>M.Sc.</strong><br>
+    University · Year
+  </li>
+  <li>
+    <i class="fas fa-graduation-cap icon-pad-right" aria-hidden="true"></i>
+    <strong>B.Sc.</strong><br>
+    University · Year
+  </li>
+</ul>
 
 ## Work Experience
-------
 
 <div class="experience-list">
-
   <div class="experience-item">
-    <span>
-      <strong>Company Name</strong> — Position
-    </span>
-    <span class="experience-date">
-      Start – End
-    </span>
+    <span><strong>Company Name</strong><br>CAE Engineer</span>
+    <span class="experience-date">Start – End</span>
   </div>
-
-  <div class="experience-item">
-    <span>
-      <strong>Company Name</strong> — Position
-    </span>
-    <span class="experience-date">
-      Start – End
-    </span>
-  </div>
-
 </div>
 
-## Academic & Volunteer Service
-------
-
-Academic activities and volunteer service will be added here.
-
----
+[View professional experience →]({{ '/work-experience/' | relative_url }})
