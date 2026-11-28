@@ -13,30 +13,26 @@ author_profile: true
 
 ## Key Responsibilities
 
-### [Multibody Dynamics (MBD) Analysis and Optimization]({{ '/work-experience/mbd-analysis/' | relative_url }})
+### Multibody Dynamics (MBD) Analysis and Optimization
 
 Vehicle dynamics simulation and mechanism optimization for automotive systems.
 
 - Full-vehicle dynamics analysis, with a focus on suspension systems
 - Mechanism optimization
 
-<a href="{{ '/work-experience/mbd-analysis/' | relative_url }}">
-  <img src="{{ '/images/work-experience/mbd-analysis.svg' | relative_url }}" alt="Illustrative schematic of Multibody Dynamics (MBD) Analysis and Optimization" style="display: block; width: 100%; max-width: 760px; height: auto;" loading="lazy">
-</a>
+<img src="{{ '/images/work-experience/mbd-analysis.svg' | relative_url }}" alt="Illustrative schematic of Multibody Dynamics (MBD) Analysis and Optimization" style="display: block; width: 100%; max-width: 760px; height: auto;" loading="lazy">
 
 <small>Illustrative schematic — not company project data.</small>
 
 ---
 
-### [Structural Strength Analysis]({{ '/work-experience/structural-strength/' | relative_url }})
+### Structural Strength Analysis
 
 Structural analysis of vehicle chassis and mechanical mechanisms.
 
 - Chassis frame strength analysis
 - Mechanical mechanism strength analysis
 
-<a href="{{ '/work-experience/structural-strength/' | relative_url }}">
-  <img src="{{ '/images/work-experience/structural-strength.svg' | relative_url }}" alt="Illustrative schematic of Structural Strength Analysis" style="display: block; width: 100%; max-width: 760px; height: auto;" loading="lazy">
-</a>
+<img src="{{ '/images/work-experience/structural-strength.svg' | relative_url }}" alt="Illustrative schematic of Structural Strength Analysis" style="display: block; width: 100%; max-width: 760px; height: auto;" loading="lazy">
 
 <small>Illustrative schematic — not company project data.</small>
