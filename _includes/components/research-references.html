@@ -1,0 +1,15 @@
+{% if include.references and include.references.size > 0 %}
+<ol class="research-references">
+  {% for key in include.references %}
+    {% assign reference = site.data.research_references[key] %}
+    {% if reference %}
+    <li>
+      {% if reference.authors %}{{ reference.authors | escape }}{% endif %}{% if reference.year %} ({{ reference.year }}).{% elsif reference.authors %}.{% endif %}
+      {% if reference.url %}<a href="{{ reference.url | escape }}">{{ reference.title | escape }}</a>{% else %}{{ reference.title | escape }}{% endif %}.
+      {% if reference.journal %}<em>{{ reference.journal | escape }}</em>{% if reference.volume %}, {{ reference.volume | escape }}{% endif %}{% if reference.article %}, {{ reference.article | escape }}{% endif %}.{% endif %}
+      {% if reference.status %}<em>{{ reference.status | escape }}.</em>{% endif %}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ol>
+{% endif %}

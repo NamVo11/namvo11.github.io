@@ -1,0 +1,12 @@
+multimaterial-to:
+  authors: "V.T. Nam, S. Ogawa, K. Suzuki, Y. Kawamura"
+  year: 2026
+  title: "Discrete material optimization approach for multi-material topology optimization of viscoelastic material for transient problem"
+  journal: "Finite Elements in Analysis and Design"
+  volume: "257"
+  article: "104556"
+  url: "https://doi.org/10.1016/j.finel.2026.104556"
+
+rom-transient:
+  title: "Reduced-order modeling for transient dynamic topology optimization using a combined offline–online basis update strategy"
+  status: "Under review"

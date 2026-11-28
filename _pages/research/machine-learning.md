@@ -1,13 +1,13 @@
 ---
-layout: single
+layout: research-detail
 title: "Machine Learning for Computational Engineering"
 permalink: /research/machine-learning/
 author_profile: true
+research_status: "Emerging research direction"
+research_image: /images/research/machine-learning.svg
+research_image_alt: "Illustrative research schematic"
+research_image_caption: "Illustrative placeholder — not a research result."
 ---
-
-[← Back to Research]({{ '/research/' | relative_url }})
-
-*Emerging research direction.*
 
 ## Overview
 
@@ -17,18 +17,10 @@ Details will be added here.
 
 Details will be added here.
 
-## Methodology
+## Research Objectives
 
-Details will be added here.
-
-## Results & Discussion
-
-Results will be added when available.
+Objectives will be added here.
 
 ## Engineering Applications
 
 Details will be added here.
-
-## Related Publications
-
-Publications will be added when available.

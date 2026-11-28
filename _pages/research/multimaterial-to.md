@@ -1,19 +1,21 @@
 ---
-layout: single
+layout: research-detail
 title: "Multi-Material Topology Optimization of Viscoelastic Structures"
 permalink: /research/multimaterial-to/
 author_profile: true
+research_status: "Published research"
+research_image: /images/research/multimaterial-to.svg
+research_image_alt: "Illustrative research schematic"
+research_image_caption: "Illustrative placeholder — not a research result."
+research_references:
+  - multimaterial-to
+research_skills:
+  - /skills/scientific-computing/
+  - /skills/finite-element-analysis/
+  - /skills/numerical-optimization/
 ---
 
-[← Back to Research]({{ '/research/' | relative_url }})
-
-*Published research*
-
 ## Overview
-
-Details will be added here.
-
-## Methodology
 
 Details will be added here.
 
@@ -21,19 +23,14 @@ Details will be added here.
 
 Details will be added here.
 
-## Results & Discussion
+## Methodology
+
+Details will be added here.
+
+## Results
 
 Details will be added here.
 
 ## Engineering Applications
 
 Details will be added here.
-
-## Related Publications
-
-[Paper](https://doi.org/10.1016/j.finel.2026.104556)
-
-## Related Skills
-
-[Large-Scale Scientific Computing]({{ '/skills/scientific-computing/' | relative_url }}) · [Finite Element Analysis & Solver Development]({{ '/skills/finite-element-analysis/' | relative_url }}) · [Numerical Optimization & Model Reduction]({{ '/skills/numerical-optimization/' | relative_url }})
-
