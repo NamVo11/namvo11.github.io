@@ -333,3 +333,14 @@
     margin-top: 0.4em;
   }
 }
+
+/* Talks: compact spacing below each year heading. */
+.talks-year {
+  margin: 1.5em 0 0;
+  padding-bottom: 0.55em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  + .list__item .archive__item-title {
+    margin-top: 0.65em;
+  }
+}
