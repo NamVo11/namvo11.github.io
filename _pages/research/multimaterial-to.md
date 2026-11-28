@@ -10,9 +10,9 @@ research_image_caption: "Illustrative placeholder — not a research result."
 research_references:
   - multimaterial-to
 research_skills:
-  - /skills/scientific-computing/
-  - /skills/finite-element-analysis/
-  - /skills/numerical-optimization/
+  - "Finite element modeling of transient viscoelastic response"
+  - "Sensitivity analysis and multi-material topology optimization"
+  - "Numerical implementation and verification of computational methods"
 ---
 
 ## Overview

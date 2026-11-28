@@ -15,8 +15,6 @@ author_profile: true
 
 ### Multibody Dynamics (MBD) Analysis and Optimization
 
-Vehicle dynamics simulation and mechanism optimization for automotive systems.
-
 - Full-vehicle dynamics analysis, with a focus on suspension systems
 - Mechanism optimization
 
@@ -28,11 +26,17 @@ Vehicle dynamics simulation and mechanism optimization for automotive systems.
 
 ### Structural Strength Analysis
 
-Structural analysis of vehicle chassis and mechanical mechanisms.
-
 - Chassis frame strength analysis
 - Mechanical mechanism strength analysis
 
 <img src="{{ '/images/work-experience/structural-strength.svg' | relative_url }}" alt="Illustrative schematic of Structural Strength Analysis" style="display: block; width: 100%; max-width: 760px; height: auto;" loading="lazy">
 
 <small>Illustrative schematic — not company project data.</small>
+
+## Skills Developed
+
+- CAE model preparation and simulation setup
+- Vehicle dynamics and mechanism optimization
+- Structural finite element modeling and strength assessment
+
+**Engineering software:** HyperMesh, MotionView.

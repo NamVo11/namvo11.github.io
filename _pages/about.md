@@ -29,19 +29,6 @@ Expected graduation: September 2027
 
 [Explore my research →]({{ '/research/' | relative_url }})
 
-## Technical Skills
-
-<ul style="list-style: none; padding-left: 0;">
-  {% for skill in site.data.skills %}
-  <li>
-    <i class="fas fa-chevron-right icon-pad-right" aria-hidden="true"></i>
-    <a href="{{ skill.url | relative_url }}">{{ skill.title | escape }}</a>
-  </li>
-  {% endfor %}
-</ul>
-
-[View all technical skills →]({{ '/skills/' | relative_url }})
-
 ## Education
 
 <ul style="list-style: none; padding-left: 0;">

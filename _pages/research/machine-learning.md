@@ -7,6 +7,9 @@ research_status: "Emerging research direction"
 research_image: /images/research/machine-learning.svg
 research_image_alt: "Illustrative research schematic"
 research_image_caption: "Illustrative placeholder — not a research result."
+research_skills_heading: "Skills in Development"
+research_skills:
+  - "Neural operators and data-driven engineering simulation (currently studying)"
 ---
 
 ## Overview

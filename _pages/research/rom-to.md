@@ -21,6 +21,3 @@ Efficient computational methods for accelerating large-scale topology optimizati
 
 [Research Details →]({{ '/research/rom-to/geometrically-nonlinear/' | relative_url }})
 
-## Related Skills
-
-[Large-Scale Scientific Computing]({{ '/skills/scientific-computing/' | relative_url }}) · [Finite Element Analysis & Solver Development]({{ '/skills/finite-element-analysis/' | relative_url }}) · [Numerical Optimization & Model Reduction]({{ '/skills/numerical-optimization/' | relative_url }})

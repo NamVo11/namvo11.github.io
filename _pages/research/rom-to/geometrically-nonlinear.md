@@ -10,9 +10,8 @@ research_image: /images/research/rom-to.svg
 research_image_alt: "Illustrative research schematic"
 research_image_caption: "Illustrative placeholder — not a research result."
 research_skills:
-  - /skills/scientific-computing/
-  - /skills/finite-element-analysis/
-  - /skills/numerical-optimization/
+  - "Geometrically nonlinear finite element solver development (Total Lagrangian formulation and Newton–Raphson iteration)"
+  - "Energy-based material interpolation and sensitivity analysis"
 ---
 
 ## Overview

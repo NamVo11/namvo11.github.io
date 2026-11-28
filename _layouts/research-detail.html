@@ -23,13 +23,10 @@ layout: single
 {% endif %}
 
 {% if page.research_skills and page.research_skills.size > 0 %}
-<h2>Related Skills</h2>
+<h2>{{ page.research_skills_heading | default: "Skills Developed" | escape }}</h2>
 <ul>
-  {% for skill_url in page.research_skills %}
-    {% assign skill = site.data.skills | where: "url", skill_url | first %}
-    {% if skill %}
-    <li><a href="{{ skill.url | relative_url }}">{{ skill.title | escape }}</a></li>
-    {% endif %}
+  {% for skill in page.research_skills %}
+    <li>{{ skill | escape }}</li>
   {% endfor %}
 </ul>
 {% endif %}

@@ -12,9 +12,9 @@ research_image_caption: "Illustrative placeholder — not a research result."
 research_references:
   - rom-transient
 research_skills:
-  - /skills/scientific-computing/
-  - /skills/finite-element-analysis/
-  - /skills/numerical-optimization/
+  - "Projection-based model reduction (POD and incremental SVD)"
+  - "Large-scale scientific computing in C++ (sparse solvers, factorization reuse and parallel computing)"
+  - "Numerical accuracy and computational performance assessment"
 ---
 
 ## Overview
