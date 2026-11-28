@@ -243,3 +243,79 @@
     }
   }
 }
+
+
+/* Publication list: native expandable overview */
+.publication-overview {
+  margin: 0 0 0.8em;
+
+  summary {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5em;
+    cursor: pointer;
+    list-style: none;
+    line-height: 1.45;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+
+  &__preview {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    max-height: 2.9em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  &__expanded-label {
+    display: none;
+  }
+
+  &__toggle {
+    flex-shrink: 0;
+    white-space: nowrap;
+    color: var(--global-text-color-light);
+  }
+
+  &__arrow {
+    display: inline-block;
+    width: 0.45em;
+    height: 0.45em;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: rotate(45deg);
+    vertical-align: 0.17em;
+  }
+
+  &[open] {
+    .publication-overview__preview,
+    .publication-overview__ellipsis {
+      display: none;
+    }
+
+    .publication-overview__expanded-label {
+      display: inline;
+      flex: 1;
+      font-weight: bold;
+    }
+
+    .publication-overview__arrow {
+      transform: rotate(225deg);
+      vertical-align: -0.05em;
+    }
+  }
+
+  &__content {
+    margin-top: 0.4em;
+  }
+}

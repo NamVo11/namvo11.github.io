@@ -1,0 +1,31 @@
+{% assign publication = include.publication | default: post %}
+<div class="list__item">
+  <article class="archive__item publication-item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ publication.researchurl | relative_url }}">{{ publication.title | escape }}</a>
+    </h2>
+    {% if publication.publication_status %}
+      <p><em>{{ publication.publication_status | escape }}</em></p>
+    {% elsif publication.venue %}
+      <p>Published in <i>{{ publication.venue | escape }}</i>{% if publication.date %}, {{ publication.date | date: "%Y" }}{% endif %}</p>
+    {% endif %}
+
+    {% if publication.overview %}
+      <details class="publication-overview archive__item-excerpt">
+        <summary aria-label="Toggle publication overview">
+          <span class="publication-overview__preview">{{ publication.overview | markdownify | strip_html | normalize_whitespace | escape }}</span>
+          <span class="publication-overview__expanded-label">Overview</span>
+          <span class="publication-overview__toggle" aria-hidden="true"><span class="publication-overview__ellipsis">…</span> <span class="publication-overview__arrow"></span></span>
+        </summary>
+        <div class="publication-overview__content">{{ publication.overview | markdownify }}</div>
+      </details>
+    {% endif %}
+
+    {% if publication.citation %}
+      <div class="publication-citation">Recommended citation: {{ publication.citation }}</div>
+    {% endif %}
+    {% if publication.paperurl %}
+      <p class="publication-links"><a href="{{ publication.paperurl | escape }}">Paper</a></p>
+    {% endif %}
+  </article>
+</div>
