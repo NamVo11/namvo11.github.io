@@ -11,8 +11,11 @@ research_references:
   - multimaterial-to
 research_skills:
   - "Finite element modeling of transient viscoelastic response"
-  - "Sensitivity analysis and multi-material topology optimization"
-  - "Numerical implementation and verification of computational methods"
+  - "Multi-material topology optimization and adjoint sensitivity analysis"
+  - "Numerical implementation and verification"
+research_tools:
+  - "C++"
+  - "Eigen"
 ---
 
 ## Overview

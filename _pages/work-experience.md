@@ -39,4 +39,6 @@ author_profile: true
 - Vehicle dynamics and mechanism optimization
 - Structural finite element modeling and strength assessment
 
-**Engineering software:** HyperMesh, MotionView.
+**Engineering Software**
+
+HyperMesh · MotionView

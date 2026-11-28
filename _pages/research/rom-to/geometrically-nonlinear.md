@@ -12,6 +12,11 @@ research_image_caption: "Illustrative placeholder — not a research result."
 research_skills:
   - "Geometrically nonlinear finite element solver development (Total Lagrangian formulation and Newton–Raphson iteration)"
   - "Energy-based material interpolation and sensitivity analysis"
+research_tools:
+  - "C++"
+  - "Eigen"
+  - "Intel MKL"
+  - "OpenMP"
 ---
 
 ## Overview

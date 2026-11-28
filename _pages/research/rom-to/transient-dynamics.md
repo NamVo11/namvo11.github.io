@@ -13,8 +13,13 @@ research_references:
   - rom-transient
 research_skills:
   - "Projection-based model reduction (POD and incremental SVD)"
-  - "Large-scale scientific computing in C++ (sparse solvers, factorization reuse and parallel computing)"
-  - "Numerical accuracy and computational performance assessment"
+  - "Large-scale scientific computing (sparse solvers, factorization reuse and parallel computing)"
+  - "Computational performance and accuracy assessment"
+research_tools:
+  - "C++"
+  - "Eigen"
+  - "Intel MKL"
+  - "OpenMP"
 ---
 
 ## Overview

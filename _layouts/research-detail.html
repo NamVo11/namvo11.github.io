@@ -30,3 +30,11 @@ layout: single
   {% endfor %}
 </ul>
 {% endif %}
+
+{% if page.research_tools and page.research_tools.size > 0 %}
+<p><strong>Tools &amp; Libraries</strong></p>
+<p>{{ page.research_tools | join: " · " | escape }}</p>
+{% elsif page.research_tools_pending %}
+<p><strong>Tools &amp; Libraries</strong></p>
+<p>Details will be added here.</p>
+{% endif %}
